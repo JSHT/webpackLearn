@@ -46,6 +46,7 @@ module.exports = {
       },
     ],
   },
+  // plugin
   plugins: [].concat(multipleHtmlPlugins),
   devServer: {
     static: {
