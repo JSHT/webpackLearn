@@ -1,0 +1,35 @@
+@import 'reset';
+$body-color: blue;
+$some: red;
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  color: $body-color;
+}
+
+header {
+  background: brown;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  li {
+    padding: 10px;
+    &:hover {
+      background: darkgoldenrod;
+    }
+  }
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background: darkblue;
+  padding: 10px 0;
+}
